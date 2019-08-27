@@ -4,22 +4,22 @@
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
         <condition/>
-        <description>Default access control on x_cdltd_loaner_req_loaner_request</description>
+        <description>Loaner Request application admin role</description>
         <name>x_cdltd_loaner_req_loaner_request</name>
-        <operation display_value="create">create</operation>
+        <operation display_value="read">read</operation>
         <script/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-08-26 18:37:43</sys_created_on>
-        <sys_id>3c26100111a733007f44db3660bf9650</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2019-08-27 17:51:49</sys_created_on>
+        <sys_id>4fe4955911eb33007f44db3660bf9698</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>x_cdltd_loaner_req_loaner_request</sys_name>
         <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">c32410cd116733007f44db3660bf963c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Request">c32410cd116733007f44db3660bf963c</sys_scope>
-        <sys_update_name>sys_security_acl_3c26100111a733007f44db3660bf9650</sys_update_name>
+        <sys_update_name>sys_security_acl_4fe4955911eb33007f44db3660bf9698</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-27 19:04:42</sys_updated_on>
+        <sys_updated_on>2019-08-27 17:51:49</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

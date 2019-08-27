@@ -18,14 +18,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_cdltd_loaner_req.loaner_request_user</roles>
+        <roles>x_cdltd_loaner_req.admin,x_cdltd_loaner_req.loaner_request_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-26 18:37:43</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f026100111a733007f44db3660bf9649</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>All</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">c32410cd116733007f44db3660bf963c</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Loaner Request">c32410cd116733007f44db3660bf963c</sys_scope>
         <sys_update_name>sys_app_module_f026100111a733007f44db3660bf9649</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-26 18:44:14</sys_updated_on>
+        <sys_updated_on>2019-08-27 18:07:24</sys_updated_on>
         <timeline_page/>
         <title>All</title>
         <uncancelable>false</uncancelable>
