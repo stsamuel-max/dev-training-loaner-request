@@ -22,7 +22,11 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Location to be used" max_length="40" name="u_location_to_be_used" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Overdue count" max_length="40" name="u_overdue_count" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Overdue reminder" max_length="40" name="u_overdue_reminder" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Pick up reminder" max_length="40" name="u_pick_up_reminder" type="glide_date_time"/>
         <element label="New Reference" max_length="32" name="u_reference_1" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Return reminder" max_length="40" name="u_return_reminder" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="u_start_date" type="glide_date_time"/>
     </element>
 </database>

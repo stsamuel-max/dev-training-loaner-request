@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_trigger_plan">
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"e1237999112f33007f44db3660bf96c6","name":"plan"}}</plan>
+        <plan_id>0db07959112f33007f44db3660bf96a7</plan_id>
+        <snapshot>11237999112f33007f44db3660bf964e</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-27 20:02:34</sys_created_on>
+        <sys_id>e1237999112f33007f44db3660bf96c6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>61237999112f33007f44db3660bf96c4</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">c32410cd116733007f44db3660bf963c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">c32410cd116733007f44db3660bf963c</sys_scope>
+        <sys_update_name>sys_flow_trigger_plan_e1237999112f33007f44db3660bf96c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-27 21:16:21</sys_updated_on>
+        <trigger display_value="">61237999112f33007f44db3660bf96c4</trigger>
+    </sys_flow_trigger_plan>
+</record_update>

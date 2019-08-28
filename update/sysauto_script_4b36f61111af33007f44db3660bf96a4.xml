@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Loaner Item Pick Up</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 01:00:00</run_period>
+        <run_start>2019-08-28 00:55:40</run_start>
+        <run_time>1970-01-01 00:00:00</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[var loanerUtils = new LoanerUtils();
+var prlist = [];
+
+var prlist = loanerUtils.getNullPickupReminders();
+gs.info('LRPU JOB: ' + prlist.length);
+
+for (var i=0; i< prlist.length; i++) {
+	gs.info('LRPU JOB: ' + prlist[i]);
+  loanerUtils.sendPickupReminder(prlist[i]);
+}
+
+ 
+
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-28 00:58:01</sys_created_on>
+        <sys_id>4b36f61111af33007f44db3660bf96a4</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Loaner Item Pick Up</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">c32410cd116733007f44db3660bf963c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">c32410cd116733007f44db3660bf963c</sys_scope>
+        <sys_update_name>sysauto_script_4b36f61111af33007f44db3660bf96a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 15:34:44</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
