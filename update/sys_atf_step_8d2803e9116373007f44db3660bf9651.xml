@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Answer the questions on the form as follows:
+Requested for = Abraham Lincoln
+and When will you start using the equipment? = 2019-08-29 00:00:00
+and When will you return the equipment? = 2019-08-30 00:00:00</description>
+        <display_name>Set Variable Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Set Variable Values">323ca6e1c3b2220076173b0ac3d3aec1</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-28 20:53:06</sys_created_on>
+        <sys_id>8d2803e9116373007f44db3660bf9651</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set Variable Values</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">c32410cd116733007f44db3660bf963c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">c32410cd116733007f44db3660bf963c</sys_scope>
+        <sys_update_name>sys_atf_step_8d2803e9116373007f44db3660bf9651</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 20:57:58</sys_updated_on>
+        <table/>
+        <test display_value="My First Loaner Request ATF Test">08f14fe5116373007f44db3660bf96ed</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=8d2803e9116373007f44db3660bf9651"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>8d2803e9116373007f44db3660bf9651</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-28 20:53:06</sys_created_on>
+        <sys_id>234803e9116373007f44db3660bf965e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 20:53:06</sys_updated_on>
+        <value>e5177ee1116373007f44db3660bf9657</value>
+        <variable display_value="">571e6a25c3b2220076173b0ac3d3ae46</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>8d2803e9116373007f44db3660bf9651</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-28 20:53:06</sys_created_on>
+        <sys_id>6f4803e9116373007f44db3660bf965d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 20:57:58</sys_updated_on>
+        <value>IO:6917bee1116373007f44db3660bf9666=a8f98bb0eb32010045e1a5115206fe3a^IO:a917bee1116373007f44db3660bf967f=2019-08-29 00:00:00^IO:a117bee1116373007f44db3660bf9686=2019-08-30 00:00:00^EQ</value>
+        <variable display_value="">346eea25c3b2220076173b0ac3d3ae8b</variable>
+    </sys_variable_value>
+</record_update>
